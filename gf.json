@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "access_token": "EAAHkgH1YPZAsBOZCvYivqtcLNuDWNZAqZCuenqCEYuNk4C5EPwYaNZAnoyfVKDZBKheslDXUnVSimV0HTZBxv39teFZCuKsOSIJKU37xZBaz9BbKuezTmYI0if21a9XOv82y88anpvd11S3ymFL0lZBf68JsB12kXOLQhZBOurZCNHoeZAX76wqsbb2xSA4DpbRqXo7EivsAIkUyX4wLt4DAMxr7AyoVXZAQZDZD",
+            "category": "Empresa de tecnologia da informa\u00e7\u00e3o",
+            "category_list": [
+                {
+                    "id": "1130035050388269",
+                    "name": "Empresa de tecnologia da informa\u00e7\u00e3o"
+                }
+            ],
+            "name": "Ecotech teste",
+            "id": "573920439130849",
+            "tasks": [
+                "ADVERTISE",
+                "ANALYZE",
+                "CREATE_CONTENT",
+                "MESSAGING",
+                "MODERATE",
+                "MANAGE"
+            ]
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "QVFIUndvcHNKZAURyQkk1YjJtTmJROHBYNFcyOVFzVzNEcElvVXIwUVZAfcHlmUHR1VVBMd0RzNlVERWU1azBzM24tVXhPcnJjX1JSRkhMRk5zYW82MUotelRR",
+            "after": "QVFIUndvcHNKZAURyQkk1YjJtTmJROHBYNFcyOVFzVzNEcElvVXIwUVZAfcHlmUHR1VVBMd0RzNlVERWU1azBzM24tVXhPcnJjX1JSRkhMRk5zYW82MUotelRR"
+        }
+    }
+}
+
+// EAAHkgH1YPZAsBO6cOZC8qOdZBsuiP52Y97jyFsibaYKIadqoertWRTQWZA5Ciy9Kl7xORZA7GUKEG60SBbc2SKTn7ZBJUi6JE8CwNMeYHWVNFTRzi13c20AdzGauDBY2RsGLcvi9uyFdXz5swmLlt1hZBvBiwWmsw8KCWVexskmeSUxZCyav9NQtjpIgLVZCpsx7iVWZAEpOsBkBJSbDuAbTqAt0ocBATX
