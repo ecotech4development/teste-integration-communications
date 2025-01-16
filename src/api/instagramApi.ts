@@ -4,8 +4,8 @@ import { createClient } from '@supabase/supabase-js';
 
 const CLIENT_ID = '546357825037011';
 const CLIENT_SECRET = 'e022de7d587386dfb9132b95879e4284';
-const REDIRECT_URI = 'https://magpie-kind-earwig.ngrok-free.app/';
-// const REDIRECT_URI = 'https://teste-integration-communications.vercel.app/';
+// const REDIRECT_URI = 'https://magpie-kind-earwig.ngrok-free.app/';
+const REDIRECT_URI = 'https://teste-integration-communications.vercel.app/';
 
 const supabase = createClient('https://izklvvxbafdyzxuethaf.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml6a2x2dnhiYWZkeXp4dWV0aGFmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzcwNDk0NzUsImV4cCI6MjA1MjYyNTQ3NX0.I8QcjYFxZRv6GhCaQUhHnmnRp9Qw8HHLWCWQ5iGY3Sc');
 
