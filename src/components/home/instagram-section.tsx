@@ -15,7 +15,7 @@ import Cookie from 'js-cookie'
 
 const CLIENT_ID = '546357825037011'
 const CLIENT_SECRET = 'e022de7d587386dfb9132b95879e4284'
-const REDIRECT_URI = 'https://magpie-kind-earwig.ngrok-free.app/'
+const REDIRECT_URI = 'https://teste-integration-communications.vercel.app/'
 
 export default function InstagramSection() {
 //@ts-ignore

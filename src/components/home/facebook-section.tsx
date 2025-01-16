@@ -13,7 +13,7 @@ import { useToast } from "@/hooks/use-toast";
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog";
 
 const CLIENT_ID = '532715486592411';
-const REDIRECT_URI = 'https://magpie-kind-earwig.ngrok-free.app/';
+const REDIRECT_URI = 'https://teste-integration-communications.vercel.app/';
 
 interface Post {
   created_time: string;

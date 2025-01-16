@@ -29,10 +29,9 @@ interface TemplateDetails {
   components: Component[];
 }
 
-
 export default function WhatsAppSection() {
-  const [accessToken, setAccessToken] = useState("EAAHkgH1YPZAsBO0oe4azDGMZCv8ohZB0Bebup4q5kXZCg7TPh009jGMx5ZCAzVWVcRdhj8K2xTHOp2iKXZCmLNfbP2Pzeh0QqF4ws28Sl6Ktds3EwXeal5dAgu3S9W46WGPxpa4M0ng7phX3guIedph7WPy5TN6mNbLz4jVZCJ0NHN62jjJNdubBZBEQtEMYXW23rzL4gi1p0FhDz2DJlNTjCz0ORHJZCTFesZA4HAbcvApTeiQrDdG9AZD");
-  const [whatsAppBusinessAccountId, setWhatsAppBusinessAccountId] = useState("526335580563581");
+  const [accessToken, setAccessToken] = useState("");
+  const [whatsAppBusinessAccountId, setWhatsAppBusinessAccountId] = useState("");
   const [businessPhones, setBusinessPhones] = useState([]);
   const [messageTemplates, setMessageTemplates] = useState([]);
   const [selectedPhone, setSelectedPhone] = useState("");
