@@ -1,6 +1,6 @@
 import FacebookSection from "@/components/home/facebook-section"
 import GoogleMapsSection from "@/components/home/google-maps-section"
-import InstagramSection from "@/components/home/instagram-section"
+import InstagramSection from "@/components/home/instagram/instagram-section"
 import ResendEmailSender from "@/components/home/resend-section"
 import WhatsAppSection from "@/components/home/whatsapp-section"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
