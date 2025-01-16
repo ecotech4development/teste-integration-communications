@@ -15,7 +15,7 @@ export default function Home() {
           <TabsTrigger value="instagram">Instagram</TabsTrigger>
           <TabsTrigger value="whatsapp">WhatsApp</TabsTrigger>
           <TabsTrigger value="facebook">Facebook</TabsTrigger>
-          <TabsTrigger value="googlemaps">Google Maps</TabsTrigger>
+          <TabsTrigger value="googlemaps">Google</TabsTrigger>
           <TabsTrigger value="email">Email</TabsTrigger>
         </TabsList>
         <TabsContent value="whatsapp">
