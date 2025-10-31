@@ -51,7 +51,7 @@ export const fetchAccessToken = async (code: string) => {
 
   return data;
 };
-
+ 
 /** Long-lived token */
 export const fetchLongLivedAccessToken = async (shortLivedToken: string) => {
   const url = `https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=${CLIENT_SECRET}&access_token=${shortLivedToken}`;
