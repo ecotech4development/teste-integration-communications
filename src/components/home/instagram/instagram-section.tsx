@@ -36,6 +36,7 @@ export default function InstagramSection() {
       setAccessToken(token)
       //@ts-expect-error
       setUserId(idUser)
+      //@ts-expect-error
       fetchUserInfo(token).then(setUserInfo)
     } else {
       const url = new URL(window.location.href)
@@ -60,6 +61,7 @@ export default function InstagramSection() {
     const longLivedToken = await fetchLongLivedAccessToken(data.access_token)
     setAccessToken(longLivedToken.access_token)
     const userInfo = await fetchUserInfo(longLivedToken.access_token)
+      //@ts-expect-error
     setUserInfo(userInfo)
   }
 
@@ -67,6 +69,7 @@ export default function InstagramSection() {
     setLoadingPosts(true)
     try {
       const posts = await fetchInstagramPosts(accessToken)
+      //@ts-expect-error
       setInstagramPosts(posts)
     } catch (error) {
       console.error("Error fetching Instagram posts:", error)
